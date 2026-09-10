@@ -499,5 +499,16 @@ function createHearts(){
 
 </script>
 
-</body>
+</body<audio id="mySong" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    // بۆ دڵنیابوون لەوەی مۆسیقاکە خۆکار کار دەکات
+    document.addEventListener("click", function() {
+        var audio = document.getElementById("mySong");
+        audio.play();
+    });
+</script>
+>
 </html>
